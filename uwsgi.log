@@ -1,0 +1,569 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 11 16:19:02 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 01 March 2019 07:51:51
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: iz2zeaon3obrcq41c1o7wlz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/BobWorks/uwsgi-tutorial/fengye
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/BobWorks/uwsgi-tutorial/fengye
+your processes number limit is 3895
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.17.192.219:8099 fd 3
+uwsgi socket 0 bound to UNIX address /root/BobWorks/uwsgi-tutorial/fengye/fengye.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  8 2019, 15:26:27)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Set PythonHome to /root/BobWorks/uwsgi-tutorial
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x27bb580
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./fengye/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1119)
+spawned uWSGI worker 1 (pid: 1120, cores: 1)
+spawned uWSGI worker 2 (pid: 1121, cores: 1)
+spawned uWSGI worker 3 (pid: 1122, cores: 1)
+spawned uWSGI worker 4 (pid: 1123, cores: 1)
+spawned uWSGI worker 5 (pid: 1124, cores: 1)
+spawned uWSGI worker 6 (pid: 1125, cores: 1)
+spawned uWSGI worker 7 (pid: 1126, cores: 1)
+spawned uWSGI worker 8 (pid: 1127, cores: 1)
+spawned uWSGI worker 9 (pid: 1128, cores: 1)
+spawned uWSGI worker 10 (pid: 1129, cores: 1)
+spawned uWSGI http 1 (pid: 1130)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 1130)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /root/BobWorks/uwsgi-tutorial/fengye/fengye.sock removed.
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 11 16:22:41 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 01 March 2019 07:51:51
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: iz2zeaon3obrcq41c1o7wlz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/BobWorks/uwsgi-tutorial/fengye
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/BobWorks/uwsgi-tutorial/fengye
+your processes number limit is 3895
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.17.192.219:8099 fd 3
+uwsgi socket 0 bound to UNIX address /root/BobWorks/uwsgi-tutorial/fengye/fengye.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  8 2019, 15:26:27)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Set PythonHome to /root/BobWorks/uwsgi-tutorial
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x25945f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./fengye/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1153)
+spawned uWSGI worker 1 (pid: 1154, cores: 1)
+spawned uWSGI worker 2 (pid: 1155, cores: 1)
+spawned uWSGI worker 3 (pid: 1156, cores: 1)
+spawned uWSGI worker 4 (pid: 1157, cores: 1)
+spawned uWSGI worker 5 (pid: 1158, cores: 1)
+spawned uWSGI worker 6 (pid: 1159, cores: 1)
+spawned uWSGI worker 7 (pid: 1160, cores: 1)
+spawned uWSGI worker 8 (pid: 1161, cores: 1)
+spawned uWSGI worker 9 (pid: 1162, cores: 1)
+spawned uWSGI worker 10 (pid: 1163, cores: 1)
+spawned uWSGI http 1 (pid: 1164)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 1164)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /root/BobWorks/uwsgi-tutorial/fengye/fengye.sock removed.
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 11 16:33:20 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 01 March 2019 07:51:51
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: iz2zeaon3obrcq41c1o7wlz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/BobWorks/uwsgi-tutorial/fengye
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/BobWorks/uwsgi-tutorial/fengye
+your processes number limit is 3895
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.17.192.219:8099 fd 3
+uwsgi socket 0 bound to UNIX address /root/BobWorks/uwsgi-tutorial/fengye/fengye.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  8 2019, 15:26:27)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Set PythonHome to /root/BobWorks/uwsgi-tutorial
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1838660
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./fengye/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1236)
+spawned uWSGI worker 1 (pid: 1237, cores: 1)
+spawned uWSGI worker 2 (pid: 1238, cores: 1)
+spawned uWSGI worker 3 (pid: 1239, cores: 1)
+spawned uWSGI worker 4 (pid: 1240, cores: 1)
+spawned uWSGI worker 5 (pid: 1241, cores: 1)
+spawned uWSGI worker 6 (pid: 1242, cores: 1)
+spawned uWSGI worker 7 (pid: 1243, cores: 1)
+spawned uWSGI worker 8 (pid: 1244, cores: 1)
+spawned uWSGI worker 9 (pid: 1245, cores: 1)
+spawned uWSGI worker 10 (pid: 1246, cores: 1)
+spawned uWSGI http 1 (pid: 1247)
+--- no python application found, check your startup logs for errors ---
+[pid: 1243|app: -1|req: -1/1] 113.208.118.34 () {40 vars in 824 bytes} [Mon Mar 11 16:33:34 2019] GET /admin/login/?next=/admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 1244|app: -1|req: -1/2] 113.208.118.34 () {40 vars in 824 bytes} [Mon Mar 11 16:33:34 2019] GET /admin/login/?next=/admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 1247)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /root/BobWorks/uwsgi-tutorial/fengye/fengye.sock removed.
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 11 16:36:45 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 01 March 2019 07:51:51
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: iz2zeaon3obrcq41c1o7wlz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/BobWorks/uwsgi-tutorial/fengye
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/BobWorks/uwsgi-tutorial/fengye
+your processes number limit is 3895
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.17.192.219:8099 fd 3
+uwsgi socket 0 bound to UNIX address /root/BobWorks/uwsgi-tutorial/fengye/fengye.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  8 2019, 15:26:27)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Set PythonHome to /root/BobWorks/uwsgi-tutorial
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x20a1600
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./fengye/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1292)
+spawned uWSGI worker 1 (pid: 1293, cores: 1)
+spawned uWSGI worker 2 (pid: 1294, cores: 1)
+spawned uWSGI worker 3 (pid: 1295, cores: 1)
+spawned uWSGI worker 4 (pid: 1296, cores: 1)
+spawned uWSGI worker 5 (pid: 1297, cores: 1)
+spawned uWSGI worker 6 (pid: 1298, cores: 1)
+spawned uWSGI worker 7 (pid: 1299, cores: 1)
+spawned uWSGI worker 8 (pid: 1300, cores: 1)
+spawned uWSGI worker 9 (pid: 1301, cores: 1)
+spawned uWSGI worker 10 (pid: 1302, cores: 1)
+spawned uWSGI http 1 (pid: 1303)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 11 16:56:32 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 01 March 2019 07:51:51
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: iz2zeaon3obrcq41c1o7wlz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/BobWorks/uwsgi-tutorial/fengye
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/BobWorks/uwsgi-tutorial/fengye
+your processes number limit is 3895
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (172.17.192.219:8099).
+bind(): Address already in use [core/socket.c line 769]
+gateway "uWSGI http 1" has been buried (pid: 1303)
+...brutally killing workers...
+Gracefully killing worker 1 (pid: 1293)...
+Gracefully killing worker 6 (pid: 1298)...
+Gracefully killing worker 2 (pid: 1294)...
+Gracefully killing worker 9 (pid: 1301)...
+Gracefully killing worker 10 (pid: 1302)...
+Gracefully killing worker 5 (pid: 1297)...
+Gracefully killing worker 4 (pid: 1296)...
+Gracefully killing worker 7 (pid: 1299)...
+Gracefully killing worker 8 (pid: 1300)...
+Gracefully killing worker 3 (pid: 1295)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/BobWorks/uwsgi-tutorial/fengye
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 6 mapped to socket 0 (/root/BobWorks/uwsgi-tutorial/fengye/fengye.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from fengye_uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 11 16:57:41 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 01 March 2019 07:51:51
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: iz2zeaon3obrcq41c1o7wlz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/BobWorks/uwsgi-tutorial/fengye
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/BobWorks/uwsgi-tutorial/fengye
+your processes number limit is 3895
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.17.192.219:8099 fd 3
+uwsgi socket 0 inherited UNIX address /root/BobWorks/uwsgi-tutorial/fengye/fengye.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  8 2019, 15:26:27)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Set PythonHome to /root/BobWorks/uwsgi-tutorial
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x14a74f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./fengye/__init__.py", line 1, in <module>
+    import PyMySQL
+ModuleNotFoundError: No module named 'PyMySQL'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1292)
+spawned uWSGI worker 1 (pid: 1453, cores: 1)
+spawned uWSGI worker 2 (pid: 1454, cores: 1)
+spawned uWSGI worker 3 (pid: 1455, cores: 1)
+spawned uWSGI worker 4 (pid: 1456, cores: 1)
+spawned uWSGI worker 5 (pid: 1457, cores: 1)
+spawned uWSGI worker 6 (pid: 1458, cores: 1)
+spawned uWSGI worker 7 (pid: 1459, cores: 1)
+spawned uWSGI worker 8 (pid: 1460, cores: 1)
+spawned uWSGI worker 9 (pid: 1461, cores: 1)
+spawned uWSGI worker 10 (pid: 1462, cores: 1)
+spawned uWSGI http 1 (pid: 1463)
+Mon Mar 11 16:59:10 2019 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 11 16:59:10 2019 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 11 16:59:10 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 11 16:59:10 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 11 16:59:10 2019 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 11 16:59:10 2019 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 11 16:59:10 2019 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 11 16:59:10 2019 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 11 16:59:10 2019 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Mar 11 16:59:10 2019 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 11 17:03:54 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 01 March 2019 07:51:51
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: iz2zeaon3obrcq41c1o7wlz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/BobWorks/uwsgi-tutorial/fengye
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/BobWorks/uwsgi-tutorial/fengye
+your processes number limit is 3895
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.17.192.219:8099 fd 3
+uwsgi socket 0 bound to UNIX address /root/BobWorks/uwsgi-tutorial/fengye/fengye.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  8 2019, 15:26:27)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Set PythonHome to /root/BobWorks/uwsgi-tutorial
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x10bc5f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218760 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./fengye/__init__.py", line 1, in <module>
+    import PyMySQL
+ModuleNotFoundError: No module named 'PyMySQL'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1076)
+spawned uWSGI worker 1 (pid: 1077, cores: 1)
+spawned uWSGI worker 2 (pid: 1078, cores: 1)
+spawned uWSGI http 1 (pid: 1079)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 1079)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /root/BobWorks/uwsgi-tutorial/fengye/fengye.sock removed.
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 11 17:15:11 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 11 March 2019 02:19:06
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: iz2zeaon3obrcq41c1o7wlz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/BobWorks/uwsgi-tutorial/fengye
+writing pidfile to uwsgi.pid
+detected binary path: /root/BobWorks/uwsgi-tutorial/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/BobWorks/uwsgi-tutorial/fengye
+your processes number limit is 3895
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.17.192.219:8099 fd 3
+uwsgi socket 0 bound to UNIX address /root/BobWorks/uwsgi-tutorial/fengye/fengye.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  8 2019, 15:26:27)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Set PythonHome to /root/BobWorks/uwsgi-tutorial
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x12976d0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218760 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./fengye/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1182)
+spawned uWSGI worker 1 (pid: 1183, cores: 1)
+spawned uWSGI worker 2 (pid: 1184, cores: 1)
+spawned uWSGI http 1 (pid: 1185)
+--- no python application found, check your startup logs for errors ---
+[pid: 1184|app: -1|req: -1/1] 113.208.118.34 () {40 vars in 824 bytes} [Mon Mar 11 17:15:26 2019] GET /admin/login/?next=/admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 1184|app: -1|req: -1/2] 113.208.118.34 () {40 vars in 768 bytes} [Mon Mar 11 17:15:39 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 1185)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /root/BobWorks/uwsgi-tutorial/fengye/fengye.sock removed.
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 11 17:17:21 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 11 March 2019 02:19:06
+os: Linux-3.10.0-693.2.2.el7.x86_64 #1 SMP Tue Sep 12 22:26:13 UTC 2017
+nodename: iz2zeaon3obrcq41c1o7wlz
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/BobWorks/uwsgi-tutorial/fengye
+writing pidfile to uwsgi.pid
+detected binary path: /root/BobWorks/uwsgi-tutorial/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/BobWorks/uwsgi-tutorial/fengye
+your processes number limit is 3895
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.17.192.219:8099 fd 3
+uwsgi socket 0 bound to UNIX address /root/BobWorks/uwsgi-tutorial/fengye/fengye.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  8 2019, 15:26:27)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Set PythonHome to /root/BobWorks/uwsgi-tutorial
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x272c6d0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218760 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x272c6d0 pid: 1227 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1227)
+spawned uWSGI worker 1 (pid: 1228, cores: 1)
+spawned uWSGI worker 2 (pid: 1229, cores: 1)
+spawned uWSGI http 1 (pid: 1230)
+[pid: 1229|app: 0|req: 1/1] 113.208.118.34 () {40 vars in 775 bytes} [Mon Mar 11 09:17:55 2019] GET / => generated 16348 bytes in 72 msecs (HTTP/1.1 200) 3 headers in 96 bytes (1 switches on core 0)
+Not Found: /static/admin/css/fonts.css
+[pid: 1228|app: 0|req: 1/2] 113.208.118.34 () {38 vars in 737 bytes} [Mon Mar 11 09:17:55 2019] GET /static/admin/css/fonts.css => generated 2022 bytes in 12 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1229|app: 0|req: 2/3] 113.208.118.34 () {40 vars in 774 bytes} [Mon Mar 11 09:22:09 2019] GET / => generated 16348 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 96 bytes (1 switches on core 0)
+Not Found: /static/admin/css/fonts.css
+[pid: 1228|app: 0|req: 2/4] 113.208.118.34 () {38 vars in 736 bytes} [Mon Mar 11 09:22:09 2019] GET /static/admin/css/fonts.css => generated 2022 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1229|app: 0|req: 3/5] 113.208.118.34 () {40 vars in 774 bytes} [Mon Mar 11 09:22:12 2019] GET / => generated 16348 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 96 bytes (1 switches on core 0)
+Not Found: /static/admin/css/fonts.css
+[pid: 1228|app: 0|req: 3/6] 113.208.118.34 () {38 vars in 736 bytes} [Mon Mar 11 09:22:12 2019] GET /static/admin/css/fonts.css => generated 2022 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1229|app: 0|req: 4/7] 113.208.118.34 () {40 vars in 774 bytes} [Mon Mar 11 09:22:13 2019] GET / => generated 16348 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 96 bytes (1 switches on core 0)
+Not Found: /static/admin/css/fonts.css
+[pid: 1228|app: 0|req: 4/8] 113.208.118.34 () {38 vars in 736 bytes} [Mon Mar 11 09:22:13 2019] GET /static/admin/css/fonts.css => generated 2022 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1229|app: 0|req: 5/9] 113.208.118.34 () {38 vars in 755 bytes} [Mon Mar 11 09:22:19 2019] GET /admin/ => generated 0 bytes in 122 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 1228|app: 0|req: 5/10] 113.208.118.34 () {38 vars in 792 bytes} [Mon Mar 11 09:22:19 2019] GET /admin/login/?next=/admin/ => generated 1819 bytes in 387 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 1229|app: 0|req: 6/11] 113.208.118.34 () {38 vars in 759 bytes} [Mon Mar 11 09:22:19 2019] GET /static/admin/css/base.css => generated 2019 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 1228|app: 0|req: 6/12] 113.208.118.34 () {38 vars in 761 bytes} [Mon Mar 11 09:22:19 2019] GET /static/admin/css/login.css => generated 2022 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 1229|app: 0|req: 7/13] 113.208.118.34 () {38 vars in 771 bytes} [Mon Mar 11 09:22:19 2019] GET /static/admin/css/responsive.css => generated 2037 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1229|app: 0|req: 8/14] 113.208.118.34 () {40 vars in 824 bytes} [Mon Mar 11 10:01:54 2019] GET /admin/login/?next=/admin/ => generated 1819 bytes in 25 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 1228|app: 0|req: 7/15] 113.208.118.34 () {38 vars in 760 bytes} [Mon Mar 11 10:01:54 2019] GET /static/admin/css/base.css => generated 2019 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 1229|app: 0|req: 9/16] 113.208.118.34 () {38 vars in 762 bytes} [Mon Mar 11 10:01:54 2019] GET /static/admin/css/login.css => generated 2022 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 1228|app: 0|req: 8/17] 113.208.118.34 () {38 vars in 772 bytes} [Mon Mar 11 10:01:54 2019] GET /static/admin/css/responsive.css => generated 2037 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1229|app: 0|req: 10/18] 113.208.118.34 () {48 vars in 1004 bytes} [Mon Mar 11 10:02:08 2019] POST /admin/login/?next=/admin/ => generated 1982 bytes in 162 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 1228|app: 0|req: 9/19] 113.208.118.34 () {38 vars in 760 bytes} [Mon Mar 11 10:02:08 2019] GET /static/admin/css/base.css => generated 2019 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+[pid: 1228|app: 0|req: 10/20] 113.208.118.34 () {38 vars in 762 bytes} [Mon Mar 11 10:02:08 2019] GET /static/admin/css/login.css => generated 2022 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1229|app: 0|req: 11/21] 113.208.118.34 () {38 vars in 772 bytes} [Mon Mar 11 10:02:08 2019] GET /static/admin/css/responsive.css => generated 2037 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1228|app: 0|req: 11/22] 113.208.118.34 () {38 vars in 793 bytes} [Mon Mar 11 10:02:15 2019] GET /admin/login/?next=/admin/ => generated 1819 bytes in 12 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 1229|app: 0|req: 12/23] 113.208.118.34 () {38 vars in 760 bytes} [Mon Mar 11 10:02:15 2019] GET /static/admin/css/base.css => generated 2019 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/login.css
+[pid: 1229|app: 0|req: 13/25] 113.208.118.34 () {38 vars in 772 bytes} [Mon Mar 11 10:02:15 2019] GET /static/admin/css/responsive.css => generated 2037 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 1228|app: 0|req: 12/25] 113.208.118.34 () {38 vars in 762 bytes} [Mon Mar 11 10:02:15 2019] GET /static/admin/css/login.css => generated 2022 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
