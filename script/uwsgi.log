@@ -106,3 +106,16 @@ worker 10 buried after 2 seconds
 goodbye to uWSGI.
 VACUUM: pidfile removed.
 VACUUM: unix socket /root/BobWorks/uwsgi-tutorial/fengye/fengye.sock removed.
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Mar 11 14:41:02 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 March 2019 07:57:14
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /Users/zhugeyou/Desktop/MyGitHub/fengye/script
+writing pidfile to uwsgi.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.7/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /root/BobWorks/uwsgi-tutorial/fengye
+chdir(): No such file or directory [core/uwsgi.c line 2623]
