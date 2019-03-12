@@ -1,0 +1,71 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Mar 12 09:06:07 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 March 2019 07:57:14
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /Users/zhugeyou/Desktop/MyGitHub/fengye/scriptdev
+writing pidfile to uwsgi.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.7/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/zhugeyou/Desktop/MyGitHub/fengye
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Can't assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Mar 12 09:08:37 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5) on 01 March 2019 07:57:14
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /Users/zhugeyou/Desktop/MyGitHub/fengye/scriptdev
+writing pidfile to uwsgi.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.7/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/zhugeyou/Desktop/MyGitHub/fengye
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8099 fd 3
+uwsgi socket 0 bound to UNIX address /Users/zhugeyou/Desktop/MyGitHub/fengye/scriptdev/fengye.sock fd 6
+Python version: 3.7.0 (v3.7.0:1bf9cc5093, Jun 26 2018, 23:26:24)  [Clang 6.0 (clang-600.0.57)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fd512f02570
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218664 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fd512f02570 pid: 43270 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 43270)
+spawned uWSGI worker 1 (pid: 43271, cores: 1)
+spawned uWSGI worker 2 (pid: 43272, cores: 1)
+spawned uWSGI http 1 (pid: 43273)
+[pid: 43272|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 718 bytes} [Tue Mar 12 01:09:03 2019] GET / => generated 16348 bytes in 22 msecs (HTTP/1.1 200) 3 headers in 96 bytes (4 switches on core 0)
+Not Found: /static/admin/css/fonts.css
+[pid: 43272|app: 0|req: 2/2] 127.0.0.1 () {38 vars in 704 bytes} [Tue Mar 12 01:09:03 2019] GET /static/admin/css/fonts.css => generated 2015 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 43272|app: 0|req: 3/3] 127.0.0.1 () {38 vars in 695 bytes} [Tue Mar 12 01:09:03 2019] GET /favicon.ico => generated 1970 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 43272|app: 0|req: 4/4] 127.0.0.1 () {38 vars in 728 bytes} [Tue Mar 12 01:09:14 2019] GET /admin => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 43272|app: 0|req: 5/5] 127.0.0.1 () {38 vars in 730 bytes} [Tue Mar 12 01:09:14 2019] GET /admin/ => generated 0 bytes in 14 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 43272|app: 0|req: 6/6] 127.0.0.1 () {38 vars in 767 bytes} [Tue Mar 12 01:09:14 2019] GET /admin/login/?next=/admin/ => generated 1855 bytes in 44 msecs (HTTP/1.1 200) 7 headers in 381 bytes (2 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 43272|app: 0|req: 7/7] 127.0.0.1 () {38 vars in 727 bytes} [Tue Mar 12 01:09:14 2019] GET /static/admin/css/base.css => generated 2012 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (2 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 43272|app: 0|req: 8/8] 127.0.0.1 () {38 vars in 739 bytes} [Tue Mar 12 01:09:14 2019] GET /static/admin/css/responsive.css => generated 2030 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 43271|app: 0|req: 1/9] 127.0.0.1 () {38 vars in 729 bytes} [Tue Mar 12 01:09:14 2019] GET /static/admin/css/login.css => generated 2015 bytes in 20 msecs (HTTP/1.1 404) 3 headers in 102 bytes (2 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 43273)
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /Users/zhugeyou/Desktop/MyGitHub/fengye/scriptdev/fengye.sock removed.
